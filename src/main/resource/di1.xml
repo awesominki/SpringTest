@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="samsungtv" class="com.mingi.mavenApp.section1.SamsungTV">
+		<constructor-arg name="model" value="DDD모델"></constructor-arg>
+		<constructor-arg name="price" value="5000"></constructor-arg>
+	</bean>
+	<bean id="lgtv" class="com.mingi.mavenApp.section1.LgTV">
+	
+	</bean>
+
+</beans>
